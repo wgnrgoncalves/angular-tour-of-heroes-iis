@@ -11,6 +11,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataSrvService } from './in-memory-data-srv.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 
@@ -20,7 +21,8 @@ import { InMemoryDataSrvService } from './in-memory-data-srv.service';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
